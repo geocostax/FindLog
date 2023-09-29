@@ -45,7 +45,7 @@ nav a:hover{/*Quando passar o mouse encima*/
 footer{
     text-align: center;
     background-color: blue;
-    padding: 40px;
+    padding: 60px;
     margin: 0;
 }
     .copyright{
@@ -64,14 +64,32 @@ footer{
     }
     .texto{
         text-align: center;
+        
     }
     .titulo-planos::before{
         content: "🛒";
     }
+    .imagem_vetor{
+        width: 20%;
+    }
+
     .borda{
-        width: 200px;
+        width: 220px;
         height: 200px;
         border-color: black;
         border-width: 2px;
         border-style: solid;
+        text-align: center;
+        border-radius: 5%;
+        display: inline-block;
+        margin: 20px;
+    }
+    .conjunto{
+        width: 60%;
+        margin: 0 0 0 500px;
+        display: inline-block;
+        padding: 80px;
+    }
+    .borda:hover{
+        transform: scale(1.2);
     }
