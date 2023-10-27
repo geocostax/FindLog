@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(50, 111, 218);
+}
+/*Estilização do LogoTipo*/
+.logo{
+    width: 50%;
+    
+}
+/*Estilização do menu*/
+nav{
+    right: 0;
+    padding-left: 400px;
+    position: absolute;
+    top: 80px;
+
+}
+nav li {/*modificando o espaçamento do menu*/
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{/*Modificando a fonte do menu*/
+    text-transform: uppercase;
+    color: white;
+    font-weight: Comic;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{/*Quando passar o mouse encima*/
+    color: black;
+    text-decoration: underline;
+}
+.logo_caixa{
+    width: 940px;
+    position: relative;
+    margin-right: 950px;
+}
+
+
+
+/* Estilos para o formulário de cadastro */
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 85%;
+}
+
+fieldset{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+  
+footer{
+    text-align: center;
+    background-color: rgba(50, 111, 218);    
+    padding: 90px;
+    margin: auto;
+}
+    .copyright{
+        color: white;
+        font-size: 12px;
+        margin: 20px;
+        
+    }
+    .logo_footer{
+        width: 10%;
+    }
